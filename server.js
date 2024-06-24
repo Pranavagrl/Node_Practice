@@ -16,6 +16,7 @@ const menuRoutes = require("./routes/menuRoutes");
 app.use("/person", personRoutes);
 app.use("/menu", menuRoutes);
 
+// Which Port Number is the server Running...
 app.listen(3000, () => {
   console.log("Listening on port 3000");
 });
